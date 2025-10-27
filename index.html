@@ -16,6 +16,14 @@
 					.big-container {
 						display: none;
 					}
+                    /* Ensure mobile container shows, and make it taller for readability */
+					.small-container {
+						display: block;
+					}
+					.responsive-iframe-container {
+						/* was 120%; increase to show more of the agenda */
+						padding-bottom: 160%;
+					}
 				}
 				@media (min-width: 550px) {
 					.small-container {
@@ -179,7 +187,16 @@
 									</ul> -->
 									<ul>
 									<div class="responsive-iframe-container big-container">
-										<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showTz=0&mode=AGENDA&showCalendars=0&showTabs=0&showPrint=0&showNav=0&src=Z2N1b2s3dGZvZmZ1M2JucGhhbm9sM2FicGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%238e24aa" style="border:solid 1px #777" position="absolute" top="0" left="0" width="80%"height="80%" frameborder="0" scrolling="no"></iframe>
+										<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showTz=0&mode=AGENDA&showCalendars=0&showTabs=0&showPrint=0&showNav=0&src=Z2N1b2s3dGZvZmZ1M2JucGhhbm9sM2FicGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%238e24aa"
+											style="border:solid 1px #777"
+											frameborder="0"
+											scrolling="yes"></iframe>
+									</div>
+                                    <div class="responsive-iframe-container small-container">
+										<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showTz=0&mode=AGENDA&showCalendars=0&showTabs=0&showPrint=0&showNav=0&src=Z2N1b2s3dGZvZmZ1M2JucGhhbm9sM2FicGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%238e24aa"
+											style="border:solid 1px #777"
+											frameborder="0"
+											scrolling="yes"></iframe>
 									</div>
 									</ul>
 								
@@ -325,7 +342,7 @@
 							<ul class="icons">
 								<li><a href="https://www.instagram.com/samantha.lipman/" target="_blank" rel="noopener noreferrer" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
 								<li><a href="mailto:samlipmanyoga@gmail.com" class="icon fa-envelope-o alt"><span class="label">Email</span></a></li>
-								<li><a href="https://calendar.google.com/calendar/b/2?cid=Z2N1b2s3dGZvZmZ1M2JucGhhbm9sM2FicGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" rel="noopener noreferrer" class="icon fa-calendar-o alt"><span class="label">Email</span></a></li>
+								<li><a href="https://calendar.google.com/calendar/b/2?cid=Z2N1b2s3dGZvZmZ1M2JucGhhbm9zM2FicGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" rel="noopener noreferrer" class="icon fa-calendar-o alt"><span class="label">Email</span></a></li>
 							</ul> 
 						</section>
 						<p class="copyright">&copy; Sam Lipman. Design: <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a>.</p>
